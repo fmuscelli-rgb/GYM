@@ -1,0 +1,442 @@
+[
+  {
+    "id": "petto",
+    "name": "Petto",
+    "subtitle": "Petto • deltoidi laterali • tricipiti",
+    "emoji": "🔥",
+    "exercises": [
+      {
+        "name": "Chest press inclinata",
+        "sets": [
+          {
+            "target": "12",
+            "rest": 150,
+            "note": "Serie di controllo: 12 reps pulite, 1–2 reps in riserva"
+          },
+          {
+            "target": "4 + 4 assistite",
+            "rest": 150,
+            "note": "Aumenta il carico: 4 autonome + 4 con assistenza minima"
+          },
+          {
+            "target": "10",
+            "rest": 150,
+            "note": "Back-off: riduci il peso e chiudi con 10 reps controllate"
+          }
+        ]
+      },
+      {
+        "name": "Chest press macchina",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 150,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 150,
+            "note": "Rest-pause/isometria controllata"
+          }
+        ]
+      },
+      {
+        "name": "Pec deck / croci macchina",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Mantieni tensione in posizione sicura"
+          }
+        ]
+      },
+      {
+        "name": "Alzate laterali macchina",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Riduci il carico se perdi tecnica"
+          }
+        ]
+      },
+      {
+        "name": "Pushdown tricipiti",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Serie intensiva controllata"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dorso",
+    "name": "Dorso",
+    "subtitle": "Dorsali • schiena • deltoidi posteriori • bicipiti",
+    "emoji": "⚡",
+    "exercises": [
+      {
+        "name": "Lat machine",
+        "sets": [
+          {
+            "target": "12",
+            "rest": 150,
+            "note": "Serie di controllo: 12 reps pulite, 1–2 reps in riserva"
+          },
+          {
+            "target": "4 + 4 assistite",
+            "rest": 150,
+            "note": "4 autonome + 4 con spotter, assistenza minima"
+          },
+          {
+            "target": "10",
+            "rest": 150,
+            "note": "Back-off controllato"
+          }
+        ]
+      },
+      {
+        "name": "Rematore macchina",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 150,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 150,
+            "note": "Tensione controllata tra i blocchi"
+          }
+        ]
+      },
+      {
+        "name": "T-Bar Row",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 150,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 150,
+            "note": "Mantieni posizione sicura"
+          }
+        ]
+      },
+      {
+        "name": "Reverse pec deck",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Controllo completo"
+          }
+        ]
+      },
+      {
+        "name": "Curl bicipiti macchina",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante, tecnica pulita"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Niente slanci"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "spalle",
+    "name": "Spalle + Braccia",
+    "subtitle": "Deltoidi • bicipiti • tricipiti",
+    "emoji": "💥",
+    "exercises": [
+      {
+        "name": "Shoulder press macchina",
+        "sets": [
+          {
+            "target": "12",
+            "rest": 150,
+            "note": "Serie di controllo"
+          },
+          {
+            "target": "4 + 4 assistite",
+            "rest": 150,
+            "note": "Assistenza minima"
+          },
+          {
+            "target": "10",
+            "rest": 150,
+            "note": "Back-off controllato"
+          }
+        ]
+      },
+      {
+        "name": "Alzate laterali",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Tensione continua"
+          }
+        ]
+      },
+      {
+        "name": "Rear delt / reverse fly",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Tecnica pulita"
+          }
+        ]
+      },
+      {
+        "name": "Curl bicipiti",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Niente slanci"
+          }
+        ]
+      },
+      {
+        "name": "Estensioni tricipiti",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Controlla il ROM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gambe",
+    "name": "Gambe",
+    "subtitle": "Quadricipiti • femorali • glutei • adduttori",
+    "emoji": "🦵",
+    "exercises": [
+      {
+        "name": "Hack squat / Leg press",
+        "sets": [
+          {
+            "target": "12",
+            "rest": 180,
+            "note": "Tecnica pulita, circa 1–2 reps in riserva"
+          },
+          {
+            "target": "6",
+            "rest": 180,
+            "note": "Serie pesante. Niente ripetizioni assistite"
+          },
+          {
+            "target": "10",
+            "rest": 180,
+            "note": "Back-off controllato"
+          }
+        ]
+      },
+      {
+        "name": "Leg extension",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante e controllata"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Tensione in posizione sicura"
+          }
+        ]
+      },
+      {
+        "name": "Leg curl seduto / sdraiato",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Eccentrica controllata"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Niente slanci"
+          }
+        ]
+      },
+      {
+        "name": "Hip thrust macchina / bilanciere",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 150,
+            "note": "Pausa breve in massima contrazione"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 150,
+            "note": "Mantieni la posizione"
+          }
+        ]
+      },
+      {
+        "name": "Adductor machine",
+        "sets": [
+          {
+            "target": "10",
+            "rest": 120,
+            "note": "ROM controllato, senza rimbalzi"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Serie intensiva finale"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "upper",
+    "name": "Upper opzionale",
+    "subtitle": "Richiamo parte superiore",
+    "emoji": "➕",
+    "exercises": [
+      {
+        "name": "Chest press",
+        "sets": [
+          {
+            "target": "12",
+            "rest": 150,
+            "note": "Serie di controllo"
+          },
+          {
+            "target": "4 + 4 assistite",
+            "rest": 150,
+            "note": "Assistenza minima"
+          },
+          {
+            "target": "10",
+            "rest": 150,
+            "note": "Back-off"
+          }
+        ]
+      },
+      {
+        "name": "Lat machine presa neutra",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 150,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 150,
+            "note": "Controllo totale"
+          }
+        ]
+      },
+      {
+        "name": "Rematore macchina",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 150,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 150,
+            "note": "Tensione controllata"
+          }
+        ]
+      },
+      {
+        "name": "Pec deck",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Serie intensiva"
+          }
+        ]
+      },
+      {
+        "name": "Alzate laterali",
+        "sets": [
+          {
+            "target": "8",
+            "rest": 120,
+            "note": "Serie pesante"
+          },
+          {
+            "target": "6 + 10s + 6 + 10s + 6",
+            "rest": 120,
+            "note": "Serie intensiva"
+          }
+        ]
+      }
+    ]
+  }
+]

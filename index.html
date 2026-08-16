@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c10">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Franco Gym">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Franco Gym</title>
+</head>
+<body>
+<div id="app">
+  <header class="topbar">
+    <div>
+      <div class="eyebrow">FRANCO GYM</div>
+      <h1 id="screenTitle">Profili</h1>
+    </div>
+    <button id="profileBtn" class="iconBtn hidden" aria-label="Cambia profilo">👤</button>
+  </header>
+
+  <main id="profileView" class="view">
+    <section class="hero">
+      <span class="pill">PROFILI</span>
+      <h2>Chi si allena?</h2>
+      <p>Ogni profilo mantiene separati schede, carichi e storico.</p>
+    </section>
+    <div id="profileGrid" class="profileGrid"></div>
+  </main>
+
+  <main id="homeView" class="view hidden">
+    <section class="hero compact">
+      <span class="pill" id="profilePill">PROFILO</span>
+      <h2 id="welcomeTitle">Ciao 👋</h2>
+      <p id="welcomeText"></p>
+    </section>
+    <section>
+      <div class="sectionHead">
+        <h3>I miei allenamenti</h3>
+        <button id="historyBtn" class="textBtn">Storico</button>
+      </div>
+      <div id="workoutGrid" class="workoutGrid"></div>
+      <button id="newWorkoutBtn" class="secondaryBtn">+ Crea allenamento</button>
+    </section>
+  </main>
+
+  <main id="workoutView" class="view hidden">
+    <button class="backBtn" id="backBtn">← Allenamenti</button>
+    <div id="workoutHeader"></div>
+    <div id="exerciseList"></div>
+    <button id="addExerciseBtn" class="secondaryBtn hidden">+ Aggiungi esercizio</button>
+    <button class="finishBtn" id="finishBtn">Completa allenamento ✓</button>
+  </main>
+
+  <main id="historyView" class="view hidden">
+    <button class="backBtn" id="historyBackBtn">← Allenamenti</button>
+    <section class="hero compact">
+      <span class="pill">PROGRESSI</span>
+      <h2>Storico allenamenti</h2>
+      <p id="historySubtitle"></p>
+    </section>
+    <div id="historyList"></div>
+    <button class="dangerBtn" id="clearHistoryBtn">Cancella storico profilo</button>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modalCard">
+      <div class="modalHead">
+        <h3 id="modalTitle">Modifica</h3>
+        <button id="closeModal" class="iconBtn small">✕</button>
+      </div>
+      <div id="modalBody"></div>
+      <div class="modalActions">
+        <button id="modalCancel" class="ghostBtn">Annulla</button>
+        <button id="modalSave" class="finishBtn compactBtn">Salva</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="timerBar" class="timerBar hidden">
+    <div>
+      <small>RECUPERO</small>
+      <strong id="timerText">02:00</strong>
+    </div>
+    <div class="timerActions">
+      <button id="minusTimer">−30</button>
+      <button id="skipTimer">Salta</button>
+      <button id="plusTimer">+30</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
