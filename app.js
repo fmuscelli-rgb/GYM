@@ -20,7 +20,7 @@ function defaultState(){
         history:[], last:{}
       },
       partner: {
-        id:"partner", name:"La mia fantastica ragazza", avatar:"🏋️‍♀️", editable:true,
+        id:"partner", name:"Mia moglie❤️", avatar:"🏋️‍♀️", editable:true,
         workouts:[], history:[], last:{}
       }
     }
@@ -63,7 +63,7 @@ function renderHome(){
   const p=profile();
   $("#screenTitle").textContent=p.name;
   $("#profilePill").textContent=p.id==="franco"?"PROFILO FRANCO":"PROFILO PERSONALIZZABILE";
-  $("#welcomeTitle").textContent=`Ciao ${p.name==="La mia ragazza"?"❤️":p.name+" 👋"}`;
+  $("#welcomeTitle").textContent=`Ciao ${p.name==="Bellissima, pronta?"?"❤️":p.name+" ❤️"}`;
   $("#welcomeText").textContent=p.workouts.length ? "Scegli la sessione di oggi." : "Qui puoi costruire la scheda esattamente come vuoi.";
   $("#newWorkoutBtn").classList.toggle("hidden",!p.editable);
   const grid=$("#workoutGrid"); grid.innerHTML="";
