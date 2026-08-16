@@ -20,7 +20,7 @@ function defaultState(){
         history:[], last:{}
       },
       partner: {
-        id:"partner", name:"La mia ragazza", avatar:"🏋️‍♀️", editable:true,
+        id:"partner", name:"La mia fantastica ragazza", avatar:"🏋️‍♀️", editable:true,
         workouts:[], history:[], last:{}
       }
     }
